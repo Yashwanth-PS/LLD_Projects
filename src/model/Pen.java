@@ -1,6 +1,6 @@
 package model;
 
-public class Pen { // Model: Pen classes
+public abstract class Pen { // Model: Pen classes
     private long id;
     private String name;
     private String brand;
@@ -16,4 +16,15 @@ public class Pen { // Model: Pen classes
         this.type = type;
         this.closingType = closingType;
     }
+
+    public abstract void write();
+
+    public void open() {
+        System.out.println("Opening the " + brand + " " + name + " pen.");
+    }
+
+    public void close() {
+        System.out.println("Closing the " + brand + " " + name + " pen.");
+    }
+
 }
