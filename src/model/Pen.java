@@ -7,4 +7,13 @@ public class Pen { // Model: Pen classes
     private double price;
     private PenType type;
     private ClosingType closingType;
+
+    public Pen(long id, String name, String brand, double price, PenType type, ClosingType closingType) {
+        this.id = id;
+        this.name = name;
+        this.brand = brand;
+        this.price = price;
+        this.type = type;
+        this.closingType = closingType;
+    }
 }
