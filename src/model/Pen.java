@@ -26,5 +26,27 @@ public abstract class Pen { // Model: Pen classes
     public void close() {
         System.out.println("Closing the " + brand + " " + name + " pen.");
     }
+    public long getId() {
+        return id;
+    }
 
+    public String getName() {
+        return name;
+    }
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public PenType getType() {
+        return type;
+    }
+
+    public ClosingType getClosingType() {
+        return closingType;
+    }
 }
