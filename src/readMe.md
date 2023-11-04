@@ -8,3 +8,4 @@
 4] Create the Ink Color Enum
 5] Create the Ink Features Enum
 6] Create the Ink Class - Add Attributes, Parameterized Constructor, Getters
+7] Created the Nib Class
