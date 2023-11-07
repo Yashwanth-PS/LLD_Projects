@@ -11,3 +11,9 @@
 7] Created the Nib Class
 8] Created the Refill Class
 9] Created the Refillable Interface
+
+**Service:**
+
+1] Implemented InkColorChoiceService
+2] Implemented InkFeaturesChoiceService
+3] Implemented PenService
