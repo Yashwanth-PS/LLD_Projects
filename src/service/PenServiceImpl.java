@@ -107,6 +107,6 @@ public class PenServiceImpl implements PenService{
 
     @Override
     public boolean isPenClose() {
-        return false;
+        return openedPen == null;
     }
 }
