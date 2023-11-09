@@ -97,7 +97,12 @@ public class PenServiceImpl implements PenService{
 
     @Override
     public void closePen() {
-
+        if (openedPen == null) {
+            System.out.println("You cannot close a pen without opening one.");
+        } else {
+            openedPen.close();
+            openedPen = null;
+        }
     }
 
     @Override
