@@ -88,7 +88,11 @@ public class PenServiceImpl implements PenService{
 
     @Override
     public void writeWithPen() {
-
+        if (openedPen == null) {
+            System.out.println("You must open a pen before writing.");
+        } else {
+            openedPen.write();
+        }
     }
 
     @Override
