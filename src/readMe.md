@@ -14,7 +14,6 @@
 
 **Service:**
 
-1] Implemented InkColorChoiceService
-2] Implemented InkFeaturesChoiceService
-3] Implemented PenService
-4] 
+1] Created the Interface InkColorChoiceService
+2] Created the Interface InkFeaturesChoiceService
+3] Created the Interface PenService
