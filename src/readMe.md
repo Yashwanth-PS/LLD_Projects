@@ -37,4 +37,4 @@
 1] Create the Pen Service Object
 2] Create the Pen Controller Object 
     - Pass the Pen Service Object while creating the Pen Controller Object
-3] Create the Handle the User Actions using the Pen Controller Object
+3] Handle the User Actions using the Pen Controller Object
