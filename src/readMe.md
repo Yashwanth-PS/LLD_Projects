@@ -25,3 +25,9 @@
 5] Create the Class InkColorChoiceServiceImpl which should implement InkColorChoiceService Interface
 6] Create the Class InkFeaturesChoiceServiceImpl which should implement InkFeaturesChoiceService Interface
 7] Create the Class PenServiceImpl which should implement PenService Interface 
+
+**Controller:**
+
+1] Create the PenController
+2] Inject the Pen Service 
+3] Handle the Use Actions
