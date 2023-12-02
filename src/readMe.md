@@ -30,7 +30,7 @@
 
 1] Create the PenController
 2] Inject the Pen Service 
-3] Handle the Use Actions
+3] Handle the User Actions
 
 **Main Class:**
 
