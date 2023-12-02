@@ -20,11 +20,11 @@ public abstract class Pen { // Model: Pen classes
     public abstract void write();
 
     public void open() {
-        System.out.println("Opening the " + brand + " " + name + " pen.");
+        System.out.println("Opening the " + brand + " " + name + ".");
     }
 
     public void close() {
-        System.out.println("Closing the " + brand + " " + name + " pen.");
+        System.out.println("Closing the " + brand + " " + name + ".");
     }
     public long getId() {
         return id;

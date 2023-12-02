@@ -10,7 +10,7 @@ public class GelPen extends Pen implements Refillable {
 
     @Override
     public void write() {
-        System.out.println("Writing with " + getBrand() + " " + getName() + " Gel Pen using " + refill.getInk().getColor() + " ink.");
+        System.out.println("Writing with " + getBrand() + " " + getName() + " using " + refill.getInk().getColor() + " ink.");
     }
 
     @Override

@@ -10,7 +10,7 @@ public class BallPen extends Pen implements Refillable {
 
     @Override
     public void write() {
-        System.out.println("Writing with " + getBrand() + " " + getName() + " Ball Pen using " + refill.getInk().getColor() + " ink.");
+        System.out.println("Writing with " + getBrand() + " " + getName() + " using " + refill.getInk().getColor() + " ink.");
     }
 
     @Override

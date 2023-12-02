@@ -12,6 +12,6 @@ public class FountainPen extends Pen {
 
     @Override
     public void write() {
-        System.out.println("Writing with " + getBrand() + " " + getName() + " Fountain Pen using " + ink.getColor() + " ink and " + nib.getThickness() + " nib.");
+        System.out.println("Writing with " + getBrand() + " " + getName() + " using " + ink.getColor() + " ink and " + nib.getThickness() + " nib.");
     }
 }
