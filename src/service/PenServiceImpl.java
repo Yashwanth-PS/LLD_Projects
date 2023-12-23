@@ -35,7 +35,7 @@ public class PenServiceImpl implements PenService{
         ClosingType chosenClosingType = ClosingType.values()[closingTypeChoice - 1];
 
         // Create an ink object based on user choices
-        InkChooser inkChooser = new InkChooser(new InkColorChoiceServiceImpl(), new InkFeaturesChoiceServiceImpl());
+        InkChooserServiceImpl inkChooser = new InkChooserServiceImpl(new InkColorChoiceServiceImpl(), new InkFeaturesChoiceServiceImpl());
         Ink userInk = inkChooser.chooseInk();
 
         // Get user's choice for nib thickness

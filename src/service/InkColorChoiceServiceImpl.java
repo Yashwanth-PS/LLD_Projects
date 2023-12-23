@@ -10,7 +10,7 @@ class InkColorChoiceServiceImpl implements InkColorChoiceService {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Choose an ink color:");
-        for (int i = 0; i < InkColor.values().length; i++) {
+        for (int i = 0; i < InkColor.values().length; i++) { // Iterating through the Enum
             System.out.println((i + 1) + ". " + InkColor.values()[i]);
         }
 

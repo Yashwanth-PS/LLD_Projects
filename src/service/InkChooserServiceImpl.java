@@ -4,11 +4,11 @@ import model.Ink;
 import model.constants.InkColor;
 import model.constants.InkFeatures;
 
-class InkChooser {
+class InkChooserServiceImpl implements InkChooserService{
     private InkColorChoiceService inkColorChoiceService;
     private InkFeaturesChoiceService inkFeaturesChoiceService;
 
-    public InkChooser(InkColorChoiceService inkColorChoiceService, InkFeaturesChoiceService inkFeaturesChoiceService) {
+    public InkChooserServiceImpl(InkColorChoiceService inkColorChoiceService, InkFeaturesChoiceService inkFeaturesChoiceService) {
         this.inkColorChoiceService = inkColorChoiceService;
         this.inkFeaturesChoiceService = inkFeaturesChoiceService;
     }

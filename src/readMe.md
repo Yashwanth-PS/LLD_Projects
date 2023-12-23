@@ -2,10 +2,10 @@
 
 **Enums:**
 
-1) Create the Closing Type Enum
-2) Create the Pen Type Enum
+1) Create the Pen Type Enum
+2) Create the Closing Type Enum
 3) Create the Ink Color Enum
-4)  Create the Ink Features Enum
+4) Create the Ink Features Enum
 
 **Models:**
 

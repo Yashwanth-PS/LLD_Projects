@@ -29,6 +29,7 @@ public abstract class Pen { // Model: Pen classes
     public void close() {
         System.out.println("Closing the " + brand + " " + name + ".");
     }
+
     public long getId() {
         return id;
     }
