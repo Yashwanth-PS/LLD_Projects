@@ -1,6 +1,6 @@
 package service;
 
-import model.InkFeatures;
+import model.constants.InkFeatures;
 
 import java.util.Scanner;
 

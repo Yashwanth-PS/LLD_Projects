@@ -1,6 +1,6 @@
 package service;
 
-import model.InkColor;
+import model.constants.InkColor;
 
 interface InkColorChoiceService {
     InkColor chooseInkColor();

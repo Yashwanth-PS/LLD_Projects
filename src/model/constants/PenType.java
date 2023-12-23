@@ -1,4 +1,4 @@
-package model;
+package model.constants;
 
 // Enums
 public enum PenType {

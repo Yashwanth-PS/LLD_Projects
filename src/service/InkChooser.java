@@ -1,8 +1,8 @@
 package service;
 
 import model.Ink;
-import model.InkColor;
-import model.InkFeatures;
+import model.constants.InkColor;
+import model.constants.InkFeatures;
 
 class InkChooser {
     private InkColorChoiceService inkColorChoiceService;

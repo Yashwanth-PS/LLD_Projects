@@ -1,6 +1,6 @@
 package service;
 
-import model.InkColor;
+import model.constants.InkColor;
 
 import java.util.Scanner;
 

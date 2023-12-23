@@ -1,5 +1,8 @@
 package model;
 
+import model.constants.InkColor;
+import model.constants.InkFeatures;
+
 public class Ink { // Model: Data classes
     private InkColor color;
     private InkFeatures features;

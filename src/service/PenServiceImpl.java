@@ -1,6 +1,8 @@
 package service;
 
 import model.*;
+import model.constants.ClosingType;
+import model.constants.PenType;
 
 import java.util.Scanner;
 

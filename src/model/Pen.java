@@ -1,5 +1,8 @@
 package model;
 
+import model.constants.ClosingType;
+import model.constants.PenType;
+
 public abstract class Pen { // Model: Pen classes
     private long id;
     private String name;

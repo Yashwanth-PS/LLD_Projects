@@ -1,5 +1,8 @@
 package model;
 
+import model.constants.ClosingType;
+import model.constants.PenType;
+
 public class UseAndThrowPen extends Pen {
     private Ink ink;
     private Nib nib;

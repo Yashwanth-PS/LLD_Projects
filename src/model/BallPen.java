@@ -1,5 +1,8 @@
 package model;
 
+import model.constants.ClosingType;
+import model.constants.PenType;
+
 public class BallPen extends Pen implements Refillable {
     private Refill refill;
 
