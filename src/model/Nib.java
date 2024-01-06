@@ -1,11 +1,13 @@
 package model;
 
+import model.constants.NibThickness;
+
 public class Nib {
-    private double thickness;
-    public Nib(double thickness) {
+    private NibThickness thickness;
+    public Nib(NibThickness thickness) {
         this.thickness = thickness;
     }
-    public double getThickness() {
+    public NibThickness getThickness() {
         return thickness;
     }
 }
