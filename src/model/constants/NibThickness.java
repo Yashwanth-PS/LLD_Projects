@@ -1,7 +1,7 @@
 package model.constants;
 
 // Define the NibThickness enum
-enum NibThickness {
+public enum NibThickness {
     THIN,
     MEDIUM,
     THICK;

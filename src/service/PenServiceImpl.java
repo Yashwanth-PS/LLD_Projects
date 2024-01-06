@@ -2,6 +2,7 @@ package service;
 
 import model.*;
 import model.constants.ClosingType;
+import model.constants.NibThickness;
 import model.constants.PenType;
 
 import java.util.Scanner;
@@ -39,19 +40,19 @@ public class PenServiceImpl implements PenService{
         Ink userInk = inkChooser.chooseInk();
 
         // Get user's choice for nib thickness
-        double nibThickness;
+        NibThickness chosenThickness = null;
         while (true) {
-            System.out.print("Choose a nib thickness option (1: 0.5, 2: 0.7, 3: 1.0): ");
+            System.out.print("Choose a nib thickness option (1: Thin, 2: Medium, 3: Thick): ");
             int choice = scanner.nextInt();
             switch (choice) {
                 case 1:
-                    nibThickness = 0.5;
+                    chosenThickness = NibThickness.THIN;
                     break;
                 case 2:
-                    nibThickness = 0.7;
+                    chosenThickness = NibThickness.MEDIUM;
                     break;
                 case 3:
-                    nibThickness = 1.0;
+                    chosenThickness = NibThickness.THICK;
                     break;
                 default:
                     System.out.println("Invalid choice. Please choose 1, 2, or 3.");
@@ -59,7 +60,9 @@ public class PenServiceImpl implements PenService{
             }
             break; // Exit the loop if a valid choice is made
         }
-        Nib userNib = new Nib(nibThickness);
+
+        // Use the chosenThickness enum value as needed
+        Nib userNib = new Nib(chosenThickness); // pass it to the Nib constructor or perform other actions
 
         Pen pen = null;
 
