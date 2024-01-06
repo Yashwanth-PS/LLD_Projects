@@ -1,3 +1,22 @@
+Requirement Gathering:
+- Any Physical entity that writes using ink is a Pen
+- Different Types of Pen:
+  - Fountain
+  - Gel
+  - Ball
+  - Use and Throw
+- Gel and Ball Pen will have refills and refills will have ink and nib
+- Some pens like Use and Throw and Fountain Flow will not have refills
+- Fountain pen directly contains ink and nib and can be refilled with ink
+- Different Ink can Have Different Colors and features
+- For Every Pen we need to store price, name, brand
+- Pens can have a cap or can be rolled inside or clicked inside
+- Some pens will have nibs, and some pens will have a refill with a nib
+- Nibs can be of Different Thickness
+- We should be able to write with the pen
+- We can close/open the pen
+- We can refill certain pens
+
 ***Implementation Steps:***
 
 **Enums:**
